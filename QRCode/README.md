@@ -21,7 +21,7 @@ A minha solução para o desafio [QR code component challenge on Frontend Mentor
 - CSS
 - Flexbox
 
-## Author
+## Autor
 
 - GitHub - [Meu repositório](https://github.com/snowzzrra)
 - Frontend Mentor - [@snowzzrra](https://www.frontendmentor.io/profile/snowzzrra)
