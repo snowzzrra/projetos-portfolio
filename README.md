@@ -13,7 +13,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
 
 Um projeto curto simulando um site com um único QRCode, feito para iniciar o básico em HTML/CSS.
 
-![](./qrcode/screenshot.png)
+![](QRCode\screenshot.png)
 
 ## Links
 
