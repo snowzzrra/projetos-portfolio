@@ -24,7 +24,7 @@ body{
 
 .container{
     width: 300px;
-    height: 475px;
+    height: 520px;
     margin: 125px auto;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,6 @@ body{
 }
 
 #qrcode img{
-    padding-top: 40px;
     width: 90%;
     border-radius: 12px;
 }

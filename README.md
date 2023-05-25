@@ -13,6 +13,8 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
 
 Um projeto curto simulando um site com um único QRCode, feito para iniciar o básico em HTML/CSS.
 
+[Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/QRCode/index.html)
+
 ![](QRCode\screenshot.png)
 
 ## Links
