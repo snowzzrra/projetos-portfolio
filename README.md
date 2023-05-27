@@ -5,6 +5,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
 
 - [Projetos](#projetos)
   - [QRCode](#qrcode)
+  - [PreviewCard](#previewcard)
 - [Links](#links)
 
 ## Projetos
@@ -16,6 +17,14 @@ Um projeto curto simulando um site com um único QRCode, feito para iniciar o b�
 [Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/QRCode/index.html)
 
 ![](QRCode\screenshot.png)
+
+### PreviewCard
+
+Um card mostrando um produto, sendo interativo no botão.
+
+[Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/PreviewCard/index.html)
+
+![](PreviewCard\screenshot.png)
 
 ## Links
 

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    width: 600px;
+    height: 475px;
+    border-radius: 15px;
+    padding: 0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.text{
+    float: left;
+    max-width:45%;
+    max-height: 100%;
+    height: 93%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.price{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    line-height: 0.95;
+    float: left;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-striked{
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 80px;
+    color: hsl(228, 12%, 48%);
+}
+
+.cart-button object{
+    padding-right: 5px;
+}
+
+.cart-button a{
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    width: 85%;
+    height: 40px;
+    margin-right: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.cart-button a:hover{
+    background-color: hsl(212, 21%, 14%);
+}
+
+
+#product-image img{
+    float: left;
+    max-width: 99%;
+    height: auto;
+    border-radius: 15px 0 0 15px;
+}
+
+#product-title{
+    letter-spacing: 5px;
+}
+
+#product-name{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.95;
+    padding-right: 70px;
+}
+
+#product-description{
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+    padding-right: 40px;
+}
+
+
+
+
+
+
