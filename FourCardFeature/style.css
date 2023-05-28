@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    max-height: 1080px;
+    font-size: 15px;
+}
+
+.container {
+    margin: 10px auto;
+    width: 1440px;
+    height: 375px;
+    padding: 0;
+}
+
+.flex-container div {
+    display: block;
+}
+
+.flex-container {
+    margin-left: 130px;
+    margin-bottom: 330px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 218px 218px 218px;
+    grid-column-gap: 35px;
+    height: 675px;
+}
+
+.header {
+    text-align: center;
+    height: 40%;
+    margin-left: 0px;
+    padding-bottom: 80px;
+}
+
+.item {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px hsla(229, 6%, 66%, 0.507);
+}
+
+.item p {
+    margin-left: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-description {
+    font-weight: 200;
+}
+
+.border-red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    grid-row: 1;
+    grid-column: 2;
+    margin-bottom: -100px;
+}
+
+.border-red img {
+    width: 75px;
+    height: 75px;
+    margin-left: 250px;
+}
+
+.border-orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    grid-row: 3;
+    grid-column: 2;
+    margin-top: -190px;
+}
+
+.border-orange img {
+    width: 75px;
+    height: 75px;
+    margin-left: 260px;
+}
+
+.border-cyan {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: -85px;
+}
+
+.border-cyan img {
+    width: 75px;
+    height: 75px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.border-blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    grid-row: 2;
+    grid-column: 3;
+    margin-top: -85px;
+}
+
+.border-blue img {
+    width: 75px;
+    height: 75px;
+    margin-left: 250px;
+}
+
+#powered {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 10px;
+    color: hsl(234, 12%, 34%);
+}
+
+#title {
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+#description {
+    color: hsl(229, 6%, 66%);
+    margin-left: 390px;
+    font-size: 18px;
+    width: 45%;
+}

@@ -6,6 +6,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
 - [Projetos](#projetos)
   - [QRCode](#qrcode)
   - [PreviewCard](#previewcard)
+  - [FourCardFeature](#fourcardfeature)
 - [Links](#links)
 
 ## Projetos
@@ -25,6 +26,14 @@ Um card mostrando um produto, sendo interativo no botão.
 [Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/PreviewCard/index.html)
 
 ![](PreviewCard\screenshot.png)
+
+### FourCardFeature
+
+Uma seção com quatro cards destacando, usando grid para posicionar.
+
+[Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/FourCardFeature/index.html)
+
+![](FourCardFeature\screenshot.png)
 
 ## Links
 
