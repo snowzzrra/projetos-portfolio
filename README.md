@@ -7,6 +7,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
   - [QRCode](#qrcode)
   - [PreviewCard](#previewcard)
   - [FourCardFeature](#fourcardfeature)
+  - [NewsletterForm](#newsletterform)
 - [Links](#links)
 
 ## Projetos
@@ -17,7 +18,7 @@ Um projeto curto simulando um site com um único QRCode, feito para iniciar o b�
 
 [Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/QRCode/index.html)
 
-![](QRCode\screenshot.png)
+![](QRCode/screenshot.png)
 
 ### PreviewCard
 
@@ -25,7 +26,7 @@ Um card mostrando um produto, sendo interativo no botão.
 
 [Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/PreviewCard/index.html)
 
-![](PreviewCard\screenshot.png)
+![](PreviewCard/screenshot.png)
 
 ### FourCardFeature
 
@@ -33,7 +34,16 @@ Uma seção com quatro cards destacando, usando grid para posicionar.
 
 [Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/FourCardFeature/index.html)
 
-![](FourCardFeature\screenshot.png)
+![](FourCardFeature/screenshot.png)
+
+### NewsletterForm
+
+Um formulário para se cadastrar em um newsletter, tendo mensagem tanto de sucesso quanto de falha por meio do JavaScript. Design responsivo, funcionando em celulares.
+
+[Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/NewsletterForm/index.html)
+
+![](NewsletterForm/screenshot.png)
+![](NewsletterForm/screenshot-mobile.png)
 
 ## Links
 

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: "Roboto";
+    display: grid;
+    place-content: center;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container.success{
+    display: initial;
+    padding: 3.5rem;
+}
+
+.info-box{
+    color: hsl(234, 29%, 20%);
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.information h1{
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.information h1, .information ul{
+    margin-bottom: 1.5rem;
+}
+
+.information ul li{
+    list-style-image: url(assets/images/icon-list.svg);
+    list-style-position: inside;
+}
+
+.information ul li::before{
+    content: '';
+    margin-right: 0.5rem;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-item label .email-failed{
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+
+.form-item label .email-failed.active{
+    display: block;
+}
+
+.form-item input, .form-item button {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+.form-item input{
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+.form-item input.active{
+    background-color: hsla(4, 82%, 11%, 0.349);
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+.form-item button {
+    cursor: pointer;
+    background: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+
+.form-item button:hover{
+    background: linear-gradient(127deg, rgba(255, 63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
+}
+
+.picture{
+    text-align: right;
+}
+
+.email-success{
+    display: none;
+    line-height: 1.2;    
+}
+
+.email-success.active{
+    display: block;
+}
+
+.email-success img{
+    width: 80px;
+}
+
+.email-success h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.email-success p{
+    margin: 2rem 0;
+}
+
+.email-success button{
+    cursor: pointer;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.email-success button:hover{
+    background: linear-gradient(127deg, rgba(255, 63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
+}
+
+#user-email{
+    font-weight: 700;
+}
+
+@media (max-width:768px){
+    body{
+        display: initial;
+        line-height: 1.4;
+    }
+
+    .container{
+        width: 100%;
+        height: initial;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .container.success{
+        display: block;
+        padding: initial;
+    }
+    
+    .info-box{
+        padding: 1rem 2rem;
+        grid-row: 2;
+    }
+
+    .info-box ul li{
+        margin-bottom: 1rem;
+    }
+
+    .picture img{
+        width: 100%;
+    }
+
+    .email-success.active{
+        height: 100vh;
+        padding: 14rem repeat(3, 2rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-success button{
+        margin-top: auto;
+    }
+}
