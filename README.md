@@ -8,7 +8,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
   - [PreviewCard](#previewcard)
   - [FourCardFeature](#fourcardfeature)
   - [NewsletterForm](#newsletterform)
-  - [PricingComponent] (#pricingcomponent)
+  - [PricingComponent](#pricingcomponent)
 - [Links](#links)
 
 ## Projetos
