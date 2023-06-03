@@ -20,8 +20,7 @@ function emailValidation(email){
     return emailRegex.test(email)
 }
 
-submitButton.addEventListener('click', (e) => {
-    e.preventDefault();
+submitButton.addEventListener('click', () => {
     const email = emailContent.value.trim()
 
     if (emailValidation(email)){

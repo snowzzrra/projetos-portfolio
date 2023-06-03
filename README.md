@@ -8,6 +8,7 @@ Onde pretendo colocar meus projetos curtos Front-End, a maioria no site [Fronten
   - [PreviewCard](#previewcard)
   - [FourCardFeature](#fourcardfeature)
   - [NewsletterForm](#newsletterform)
+  - [PricingComponent] (#pricingcomponent)
 - [Links](#links)
 
 ## Projetos
@@ -44,6 +45,15 @@ Um formulário para se cadastrar em um newsletter, tendo mensagem tanto de suces
 
 ![](NewsletterForm/screenshot.png)
 ![](NewsletterForm/screenshot-mobile.png)
+
+### PricingComponent
+
+Uma página para um cálculo de preço, usando uma barra de controle de alcance que determina a quantidade de visualizações na página. Um script logo depois coloca o preço equivalente a quantidade escolhida, também dando desconto ou não dependendo da opção de pagamento escolhida. Utiliza vários pseudo-elementos, especialmente nos dois inputs. O design é completamente responsivo, funcionando bem tanto em computadores quanto em celulares.
+
+[Link no Pages.](https://snowzzrra.github.io/projetos-portfolio/PricingComponent/index.html)
+
+![](PricingComponent/screenshot.png)
+![](PricingComponent/screenshot-mobile.png)
 
 ## Links
 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+
+  <div class="container" id="container">
+    <div class="upper" id="upper">
+      <h1>Simple, traffic-based pricing</h1>
+      <h3>Sign-up for our 30-day trial.</h3>
+      <h3>No credit card required.</h3>
+    </div>
+
+    <div class="lower" id="lower">
+      <div class="main">
+          <span id="price-span">
+            <span id="pageviews">
+              <span id="pageviews-quantity">100K</span> 
+              PAGEVIEWS
+            </span>
+            <span id="price-container">
+              <h1>$<span id="monthly-price">16</span>.00</h1>
+              <p>/ month</p>
+            </span>
+          </span>
+        <div class="slidecontainer">
+          <input class="range-slider slider-progress" type="range" style="--value:0; --min:0; --max:100;" step="25"
+            id="range-input">
+        </div>
+        <p id="monthly-billing">Monthly Billing</p>
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="togglepricing" tabindex="0"
+            unchecked>
+          <label class="onoffswitch-label" for="togglepricing"></label>
+        </div>
+        <p id="yearly-billing">Yearly Billing <span id="discount">25% discount</span></p>
+      </div>
+      <hr>
+      <div class="information">
+        <ul>
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <div class="button">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="range-input.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
