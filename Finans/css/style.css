@@ -1,0 +1,13 @@
+#container-main{
+    background: #ffc107;
+    color: white;
+}
+
+.box-style{
+    padding: 60px 0;
+    border: 1px solid #efefef;
+}
+
+footer p a{
+    margin: 5px 15px;
+}
